@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Foptimum</Name>
+  <Repository>roseatoni/foptimum:0.1</Repository>
+  <Registry>https://hub.docker.com/r/roseatoni/foptimum</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/128577-support-foptimum/</Support>
+  <Project>https://github.com/kennethprose/Foptimum</Project>
+  <Overview>An internet uptime monitoring tool that stores results in Prometheus.</Overview>
+  <Category>Tools: Network:Other</Category>
+  <WebUI>http://[IP]:[PORT:9191]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/kennethprose/Foptimum/main/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1663812023</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Prometheus Server Port" Target="9191" Default="" Mode="tcp" Description="The port where Prometheus will be exposing result data" Type="Port" Display="always" Required="true" Mask="false">9191</Config>
+  <Config Name="Speedtest Interval" Target="SPEEDTEST_INTERVAL" Default="15" Mode="" Description="How often in minutes the speedtest will run" Type="Variable" Display="always" Required="true" Mask="false">15</Config>
+  <Config Name="Ping Interval" Target="PING_INTERVAL" Default="10" Mode="" Description="How often in seconds to ping servers in the server list" Type="Variable" Display="always" Required="true" Mask="false">10</Config>
+  <Config Name="Server List" Target="SERVER_LIST" Default="1.1.1.1,8.8.8.8" Mode="" Description="Comma delimited list of IPs to ping" Type="Variable" Display="always" Required="true" Mask="false">1.1.1.1,8.8.8.8</Config>
+</Container>
