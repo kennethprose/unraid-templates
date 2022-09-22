@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Foptimum</Name>
-  <Repository>roseatoni/foptimum:0.1</Repository>
+  <Repository>roseatoni/foptimum:latest</Repository>
   <Registry>https://hub.docker.com/r/roseatoni/foptimum</Registry>
   <Network>bridge</Network>
   <MyIP/>
