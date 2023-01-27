@@ -22,7 +22,7 @@
   <DonateLink/>
   <Requires/>
   <Config Name="Prometheus Server Port" Target="9191" Default="" Mode="tcp" Description="The port where Prometheus will be exposing result data" Type="Port" Display="always" Required="true" Mask="false">9191</Config>
-  <Config Name="Speedtest Interval" Target="SPEEDTEST_INTERVAL" Default="900" Mode="" Description="How often in seconds the speedtest will run" Type="Variable" Display="always" Required="true" Mask="false">900</Config>
-  <Config Name="Ping Interval" Target="PING_INTERVAL" Default="10" Mode="" Description="How often in seconds to ping servers in the server list" Type="Variable" Display="always" Required="true" Mask="false">10</Config>
+  <Config Name="Speedtest Interval" Target="SPEEDTEST_INTERVAL" Default="1800" Mode="" Description="How often in seconds the speedtest will run" Type="Variable" Display="always" Required="true" Mask="false">900</Config>
+  <Config Name="Ping Interval" Target="PING_INTERVAL" Default="15" Mode="" Description="How often in seconds to ping servers in the server list" Type="Variable" Display="always" Required="true" Mask="false">10</Config>
   <Config Name="Server List" Target="SERVER_LIST" Default="1.1.1.1,8.8.8.8" Mode="" Description="Comma delimited list of IPs to ping" Type="Variable" Display="always" Required="true" Mask="false">1.1.1.1,8.8.8.8</Config>
 </Container>
